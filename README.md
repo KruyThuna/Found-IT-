@@ -22,36 +22,4 @@ npm run dev
 
 # 6. Project structure
 
-Found-IT/
-│
-├── public/
-│
-├── src/
-│   ├── assets/
-│   │
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── Footer.jsx
-│   │   ├── ItemCard.jsx
-│   │   └── SearchBar.jsx
-│   │
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Login.jsx
-│   │   ├── Register.jsx
-│   │   ├── LostItems.jsx
-│   │   ├── FoundItems.jsx
-│   │   ├── PostItem.jsx
-│   │   ├── ItemDetails.jsx
-│   │   ├── Tracking.jsx
-│   │   └── Profile.jsx
-│   │
-│   ├── services/
-│   │   └── api.js
-│   │
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-│
-├── package.json
-└── vite.config.js
+<img width="700" height="670" alt="image" src="https://github.com/user-attachments/assets/f9ce1fb8-2a5d-43f0-ab64-4a4e611853ea" />
