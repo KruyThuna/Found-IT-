@@ -15,7 +15,11 @@ Variant: JavaScript
 cd Found-IT
 
 # 4. Install dependencies
-npm install
+1.npm install
+2.npm install react-router-dom
+3.Axios for API calls:
+  npm install axios
+4.npm install lucide-react
 
 # 5. Start the development server (browser : https//localhost/8080)
 npm run dev
