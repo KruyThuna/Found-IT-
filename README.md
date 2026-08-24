@@ -1,21 +1,57 @@
-# Found-IT-
-Found  item and Lost item post , Tracking 
+Found-IT React.js setup
 
-Install Node.js
-
-Download and install the latest LTS version of Node.js from
+# 1. Check Node.js
 node -v
 npm -v
-2. Create a React project
-npm create vite@latest my-react-app
-+ Choose:
-Framework: React
-Variant: JavaScript (or TypeScript if you prefer)
-3. Go to the project folder
-cd Found-IT project 
-4. Install dependencies
+
+# 2. Create the React project
+npm create vite@latest Found-IT
+
+# Choose:
+# Framework: React
+# Variant: JavaScript
+
+# 3. Enter the project
+cd Found-IT
+
+# 4. Install dependencies
 npm install
-5. Start the development server
+
+# 5. Start the development server
 npm run dev
-+ You'll see output similar to:
-Local: http://localhost:5173/
+
+# 6. Project structure
+
+Found-IT/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── ItemCard.jsx
+│   │   └── SearchBar.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── LostItems.jsx
+│   │   ├── FoundItems.jsx
+│   │   ├── PostItem.jsx
+│   │   ├── ItemDetails.jsx
+│   │   ├── Tracking.jsx
+│   │   └── Profile.jsx
+│   │
+│   ├── services/
+│   │   └── api.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+└── vite.config.js
