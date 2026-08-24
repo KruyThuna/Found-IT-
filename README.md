@@ -9,7 +9,7 @@ npm create vite@latest Found-IT
 
 # Choose:
 # Framework: React
-# Variant: JavaScript
+Variant: JavaScript
 
 # 3. Enter the project
 cd Found-IT
@@ -22,4 +22,4 @@ npm run dev
 
 # 6. Project structure
 
-<img width="700" height="670" alt="image" src="https://github.com/user-attachments/assets/f9ce1fb8-2a5d-43f0-ab64-4a4e611853ea" />
+<img width="649" height="653" alt="image" src="https://github.com/user-attachments/assets/b322b5a7-bb93-41a5-bc54-6b2696fc2a8b" />
