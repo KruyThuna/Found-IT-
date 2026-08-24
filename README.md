@@ -17,7 +17,7 @@ cd Found-IT
 # 4. Install dependencies
 npm install
 
-# 5. Start the development server
+# 5. Start the development server (Webrowser% https//localhost/8080)
 npm run dev
 
 # 6. Project structure
