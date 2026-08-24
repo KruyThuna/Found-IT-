@@ -1,5 +1,14 @@
-Found-IT React.js setup
+$ Found-IT – Lost & Found Web Application
+Description:
+Found-IT is a Lost and Found web application designed to help users easily report, search, and recover lost items by connecting people who have lost items with those who have found them.
+#.Technology:
+Frontend: React.js + Vite
+Backend: Spring Boot + ASP.NET
+Database: MySQL
+API: REST API ( Swagger  Opent AI ) 
+Deployment: Docker
 
+#Found-IT React.js setup
 # 1. Check Node.js
 node -v
 npm -v
@@ -15,11 +24,11 @@ Variant: JavaScript
 cd Found-IT
 
 # 4. Install dependencies
-1.npm install
-2.npm install react-router-dom
-3.Axios for API calls:
-  npm install axios
-4.npm install lucide-react
+-1.npm install
+-2.npm install react-router-dom
+-3.Axios for API calls:
+-npm install axios
+-4.npm install lucide-react
 
 # 5. Start the development server (browser : https//localhost/8080)
 npm run dev
