@@ -1,0 +1,97 @@
+.item-card {
+  overflow: hidden;
+
+  background: white;
+
+  border: 1px solid #e5e9ef;
+
+  border-radius: 9px;
+
+  transition: 0.25s;
+
+  box-shadow: 0 3px 12px rgba(30, 50, 90, 0.04);
+}
+
+.item-card:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 10px 25px rgba(30, 50, 90, 0.1);
+}
+
+.item-image-wrapper {
+  height: 150px;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.item-image {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.item-status {
+  position: absolute;
+
+  top: 9px;
+  right: 9px;
+
+  padding: 4px 7px;
+
+  border-radius: 5px;
+
+  font-size: 8px;
+  font-weight: 700;
+}
+
+.item-status.lost {
+  background: #fff0d7;
+  color: #bd6a00;
+}
+
+.item-status.found {
+  background: #d8fff0;
+  color: #009b68;
+}
+
+.item-content {
+  padding: 12px;
+}
+
+.item-content h3 {
+  font-size: 11px;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+.item-location {
+  margin-top: 7px;
+
+  color: #7b8492;
+
+  font-size: 8px;
+}
+
+.item-footer {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 13px;
+
+  color: #8a93a1;
+
+  font-size: 8px;
+}
+
+.item-footer a {
+  color: #1260d9;
+}

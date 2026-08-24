@@ -1,0 +1,71 @@
+.navbar {
+  height: 58px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e9f2;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-container {
+  max-width: 1180px;
+  height: 100%;
+  margin: auto;
+
+  padding: 0 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  color: #1155cc;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.logo-icon {
+  font-size: 18px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  font-size: 11px;
+  color: #424b5a;
+}
+
+.nav-links a:hover {
+  color: #145dcc;
+}
+
+.signin-btn {
+  background: #1558d6;
+  color: white !important;
+
+  padding: 8px 16px;
+
+  border-radius: 8px;
+
+  font-weight: 600;
+}
+
+.profile-avatar {
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+
+  background: #e9eef8;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,8 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "editor.formatOnSave": true,
+    "maven.view": "hierarchical",
+    "cmake.sourceDirectory": "C:/Mobile_Camfix/Camfix_App/windows"
+}
